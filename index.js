@@ -14,3 +14,4 @@ db.sequelize.sync()
     .then((result) => {
         app.listen(3000, () => {console.log('Server Started')});
     })
+    .catch((err) => {console.log(err)})
