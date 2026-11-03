@@ -16,7 +16,7 @@ module.exports=(sequelize,DataTypes)=>{
         author:{
             type:DataTypes.STRING,
             allowNull:false,
-        }
+        },
     });
     return Komik;
 }
